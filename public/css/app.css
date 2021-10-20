@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+body {
+  background-color: #e8ecf1;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #607080;
+}
+
+p {
+  margin: 0;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.bg-gray50 {
+  background-color: #f5f5f5;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.empty h1,
+.empty h2,
+.empty h3,
+.empty h4,
+.empty h5,
+.empty h5 {
+  color: #607080;
+}
+
+.stats-icon .bi {
+  width: 25px;
+  height: 30px;
+}
+
+.w100px {
+  width: 100px;
+}
+
+/*Header*/
+header {
+  background: #f2f7ff;
+  box-shadow: 0 0 10px -7px black;
+}
+
+/*Sidebar*/
+.sidebar-wrapper .menu .sidebar-link {
+  font-size: 16px;
+}
+
+.sidebar-wrapper .menu .submenu .submenu-item a {
+  font-size: 15px;
+}
+
+.dropdown-toggle:after {
+  color: #435ebe;
+}
+
+.sidebar-wrapper .menu .sidebar-item .sidebar-link.router-link-exact-active {
+  background-color: #435ebe;
+  color: #fff;
+}
+.sidebar-wrapper .menu .sidebar-item .sidebar-link.router-link-exact-active i {
+  color: #fff;
+}
+
+/*Main content*/
+#main #main-content {
+  padding: 2rem;
+  min-height: calc(100vh - 170px);
+}
+
+.sidebar-wrapper .sidebar-header {
+  padding: 2rem 2rem 1rem;
+  font-weight: 700;
+  border-bottom: solid 1px #efefef;
+}
+
+/*Footer*/
+footer {
+  background: #f2f7ff;
+  padding: 20px 30px;
+}
